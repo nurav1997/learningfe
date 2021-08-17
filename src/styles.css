@@ -1,11 +1,30 @@
+/* do not remove for bootstrap */
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+
 /* You can add global styles to this file, and also import other style files */
+
+/*global setting for style sheet*/
 :root {
     --theme-color: #0b1831;
-    --text-color: #ecf1f7;
+    --text-color: #ffff;
+}
+
+*{
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 
 body {
     background-color: var(--theme-color);
     color: var(--text-color);    
+    
+
+}
+
+
+
+.navbar,.nav-link{
+    background-color: var(--theme-color) !important;
+    color: var(--text-color) !important;    
 }
 
